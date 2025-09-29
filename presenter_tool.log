@@ -1,0 +1,44 @@
+2025-09-29 01:42:18,667 - INFO - Logging configured. Logs also being written to: presenter_tool.log
+2025-09-29 01:42:18,667 - INFO - --- TTS Initialization ---
+2025-09-29 01:42:18,667 - INFO - Attempting to initialize pyttsx3 with 'espeak' driver...
+2025-09-29 01:42:18,688 - INFO - pyttsx3 initialized successfully.
+2025-09-29 01:42:18,688 - WARNING - Could not call getDriverName(). Engine object appears incomplete, but proceeding.
+2025-09-29 01:42:18,695 - INFO - Driver confirmed: espeak (Assumed)
+2025-09-29 01:42:18,695 - INFO - Voice count: 131
+2025-09-29 01:42:18,695 - INFO - Set Voice ID: gmw/en
+2025-09-29 01:42:18,695 - INFO - --- Initialization Complete ---
+2025-09-29 01:42:18,695 - INFO - 
+--- Parsing Script: presentation_script.txt ---
+2025-09-29 01:42:18,695 - INFO - Script loaded. Total characters: 685
+2025-09-29 01:42:18,696 - INFO - Found 3 valid slide segments.
+2025-09-29 01:42:18,696 - INFO - 
+Starting generation process for 3 slides...
+2025-09-29 01:42:18,696 - INFO - 
+--- Starting Generation for Slide 1 ---
+2025-09-29 01:42:18,696 - INFO - Output directory confirmed: /workspaces/ppt-voice-presenter/presentation_audio
+2025-09-29 01:42:18,697 - INFO - Target file path: /workspaces/ppt-voice-presenter/presentation_audio/01_slide_audio.mp3
+2025-09-29 01:42:18,697 - INFO - FULL TEXT SENT TO ENGINE: . Welcome to our annual product review. . Today, we're going to cover three main areas.
+2025-09-29 01:42:18,697 - INFO - Engine stopped/flushed before queuing.
+2025-09-29 01:42:18,698 - INFO - SUCCESS: Audio generation job queued for Slide 1.
+2025-09-29 01:42:18,698 - INFO - --- Waiting for Slide 1 to finish (runAndWait) ---
+2025-09-29 01:42:18,708 - INFO - Slide 1 generation complete.
+2025-09-29 01:42:18,709 - INFO - 
+--- Starting Generation for Slide 2 ---
+2025-09-29 01:42:18,709 - INFO - Output directory confirmed: /workspaces/ppt-voice-presenter/presentation_audio
+2025-09-29 01:42:18,709 - INFO - Target file path: /workspaces/ppt-voice-presenter/presentation_audio/02_slide_audio.mp3
+2025-09-29 01:42:18,709 - INFO - FULL TEXT SENT TO ENGINE: . Last quarter, our team faced some challenges, but we persevered. The overall market sentiment was positive, which helped us. . However, our sales were slightly below target.
+2025-09-29 01:42:18,709 - INFO - Engine stopped/flushed before queuing.
+2025-09-29 01:42:18,709 - INFO - SUCCESS: Audio generation job queued for Slide 2.
+2025-09-29 01:42:18,709 - INFO - --- Waiting for Slide 2 to finish (runAndWait) ---
+2025-09-29 01:42:18,730 - INFO - Slide 2 generation complete.
+2025-09-29 01:42:18,730 - INFO - 
+--- Starting Generation for Slide 3 ---
+2025-09-29 01:42:18,731 - INFO - Output directory confirmed: /workspaces/ppt-voice-presenter/presentation_audio
+2025-09-29 01:42:18,731 - INFO - Target file path: /workspaces/ppt-voice-presenter/presentation_audio/03_slide_audio.mp3
+2025-09-29 01:42:18,731 - INFO - FULL TEXT SENT TO ENGINE: . This is the moment you've all been waiting for! Our new, completely offline, secure presenter tool is here. . We believe this will revolutionize the way you deliver your presentations.
+2025-09-29 01:42:18,731 - INFO - Engine stopped/flushed before queuing.
+2025-09-29 01:42:18,731 - INFO - SUCCESS: Audio generation job queued for Slide 3.
+2025-09-29 01:42:18,732 - INFO - --- Waiting for Slide 3 to finish (runAndWait) ---
+2025-09-29 01:42:18,753 - INFO - Slide 3 generation complete.
+2025-09-29 01:42:18,754 - INFO - 
+✅ All 3 presenter audio files successfully created in 'presentation_audio/'.
