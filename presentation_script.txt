@@ -1,0 +1,25 @@
+# Presentation Script - Introduction
+
+Welcome to our annual product review.
+<pause:500>
+Today, we're going to cover three main areas.
+
+---SLIDE---
+
+# Section 1: Review of Last Quarter
+
+Last quarter, our team faced some challenges, but we persevered.
+<tone:calm>The overall market sentiment was positive, which helped us.</tone:calm>
+<pause:750>
+However, our sales were slightly below target.
+
+---SLIDE---
+
+# Section 2: Introducing the New Feature
+
+<tone:excited>This is the moment you've all been waiting for!</tone:excited>
+Our new, completely offline, secure presenter tool is here.
+<pause:1500>
+We believe this will revolutionize the way you deliver your presentations.
+
+---SLIDE---
